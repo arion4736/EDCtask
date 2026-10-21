@@ -20,12 +20,12 @@ The design uses warm ivory, deep blue-black, sea-glass card colors, and a persim
 
 The simplest method is to import a GitHub repository:
 
-1. Create a new GitHub repository and upload `index.html`, `styles.css`, `script.js`, `README.md`, and the `assets` folder into its top level.
+1. Create a new GitHub repository and upload `index.html`, `styles.css`, `script.js`, and `README.md` into its top level.
 2. Sign in to Vercel, choose **Add New → Project**, and import that GitHub repository.
 3. Choose **Other** as the Framework Preset. Leave the Build Command blank and use `.` (the project root) as the Output Directory.
 4. Select **Deploy**. Vercel will give you a public website link. Later commits to the connected GitHub repository can trigger new deployments.
 
-If you keep these files inside a folder named `outputs` in your GitHub repository, set Vercel's **Root Directory** to `outputs`. The easier setup is to place the website files and `assets` folder at the repository's top level.
+If you keep these files inside a folder named `outputs` in your GitHub repository, set Vercel's **Root Directory** to `outputs`. The easier setup is to place the website files at the repository's top level.
 
 ## How the interaction works
 
